@@ -50,7 +50,7 @@ font-family: 'Exo', sans-serif;
 font-weigth:400;
 @media only screen and (min-width: 360px) and (max-width: 800px) {
     display: flex;
-   
+
     height:8%;
     width: 76%;
     align-items: center;
@@ -69,7 +69,7 @@ width: 100%;
 
 
 @media only screen and (min-width: 360px) and (max-width: 800px) {
-
+  margin-top:1.8%;
     display: flex;
     width: 100%;
   }

@@ -26,7 +26,7 @@ width: 10vw;
 @media only screen and (min-width: 360px) and (max-width: 800px) {
   display:flex;
   justify-content:center;
-  font-size:9.5px;
+  font-size:15px;
   width:25%;
   &:hover {
     cursor: pointer;
