@@ -4,61 +4,27 @@ import Logo from '../../Img/Logo.png'
 import * as S from './HeaderStyle'
 import styled from 'styled-components'
 
-const StyledLink  = styled(Link)`
-font-size: 28px;
-color: #000000;
-display: flex;
-align-items: center;
-width: 10vw;
-&:hover {
-  cursor: pointer;
-  font-weight: 900;
-  color: #BC8F8F;
- }
-}
 
-  &:visited,
-  &:link,
-  &:active {
-    text-decoration: none;
-  }
 
-@media only screen and (min-width: 360px) and (max-width: 800px) {
-  display:flex;
-  justify-content:center;
-  font-size:15px;
-  width:25%;
-  &:hover {
-    cursor: pointer;
-    font-weight: 900;
-    color: #BC8F8F;
-   }
-  }
-  
-    &:visited,
-    &:link,
-    &:active {
-      text-decoration: none;
-    }
-}
-`
+
+
 
 export default function Header(){
+
+
   return (
-    <S.Section>
-      <S.Div>
-        <S.Img src={Logo} alt='logo'/>
-      </S.Div>
-      <S.Nav>
-      <S.Ul>
-        <StyledLink to="/">HOME</StyledLink>
-        <StyledLink to="/about">ABOUT ME</StyledLink>
-        <StyledLink to="/works">WORKS</StyledLink>
-        <StyledLink to="/ods">ODS PROJECT</StyledLink>
-        
-      </S.Ul>
-     </S.Nav>
-       
-    </S.Section>
+    <section>
+      <div>
+        <img src={Logo} alt='logo'/>
+      </div>
+      <nav>
+      <ul>
+        <Link to="/">HOME</Link>
+        <Link to="/about">ABOUT ME</Link>
+        <Link to="/works">WORKS</Link>
+        <Link to="/ods">ODS PROJECT</Link>
+      </ul>
+     </nav>
+    </section>
   )
 }

@@ -11,7 +11,7 @@ display:flex;
     width:100%;
 height:100vh;
     display:flex;
-    border:solid;
+    
 }
 `
 
@@ -122,29 +122,6 @@ margin-top:16%;
     display:none;
 }
 `
-
-// export const FooterSide=styled.section`
-// position:absolute;
-// display:flex;
-// justify-content:center;
-// align-items:center;
-// margin-top:17.5%;
-// margin-left:10%;
-// border:solid;
-// width:40%;
-// height:50%;
-// z-index:2;
-// `
-
-// display:flex;
-// justify-content:space-evenly;
-// align-items:center;
-// margin-right:4%;
-// margin-top:20%;
-// flex-direction: column;
-// width:18%;
-// height:40%;
-// z-index:2;
 
 export const Figure =styled.figure`
 position:absolute;
