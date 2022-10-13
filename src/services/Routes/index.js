@@ -6,6 +6,10 @@ import Ods from '../../pages/Ods'
 import About from '../../pages/About'
 
 export default function Path(){
+
+
+
+  
   return (
     <BrowserRouter>
      {/* <nav>

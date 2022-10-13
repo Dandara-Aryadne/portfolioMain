@@ -11,6 +11,7 @@ display:flex;
     width:100%;
 height:100vh;
     display:flex;
+    border:solid;
     
 }
 `
@@ -31,10 +32,10 @@ left:2%;
 @media screen and (min-width:360px) and (max-width:800px){
     position:absolute;
     display:flex;
-   
-    top:30%;
-    left:28%;
-    width:42%;
+   border:solid;
+    margin-top:30%;
+    margin-left:5%;
+    width:90%;
     height:10%;
 }
 `
@@ -47,7 +48,11 @@ font-size:43px;
 font-family: 'Comfortaa', cursive;
 
 @media screen and (min-width:360px) and (max-width:800px){
-    display:none;
+    margin-bottom:10vh;
+    margin-left:9.5%;
+    font-size:30px;
+    font-family: 'Comfortaa', cursive;
+    border:solid;
 }
 `
 

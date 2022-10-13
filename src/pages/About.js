@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../services/header/Header'
+
 import * as S from '../Style/AboutStyle'
 import Paint1 from '../imgAbout/Paint1.png'
 import Paint2 from '../imgAbout/Paint2.png'
@@ -29,7 +30,7 @@ export default function About() {
           <S.ImgFour src={Paint4} alt='paint4'/>
         </S.Figure>
         <div>
-          <img/>
+          <img alt='space'/>
         </div>
       </S.Main>
        
