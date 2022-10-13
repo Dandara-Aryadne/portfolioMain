@@ -21,7 +21,12 @@ justify-content:space-evenly;
 align-items:flex-start;
 background-color:#F4F4F4;
 border:solid 1px #F4F4F4;
+}
+`
+
+const StyledLink = styled(Link)`
 font-family: 'Exo', sans-serif;
+font-size:15.1px;
 &:hover {
     cursor: pointer;
     font-weight: 900;
@@ -33,10 +38,7 @@ font-family: 'Exo', sans-serif;
     &:active {
       text-decoration: none;
     }
-}
 `
-
-
 
 
 export default function App() {
@@ -57,10 +59,10 @@ const Menu = ({ primeiro, segundo, terceiro, quarto}) => {
     
     <Nav>
       <Ul>
-        <Link to='/'>{primeiro}</Link>
-        <Link to='/about'>{segundo}</Link>
-        <Link to='/works'>{terceiro}</Link>
-        <Link to='/ods'>{quarto}</Link>
+        <StyledLink to='/'>{primeiro}</StyledLink>
+        <StyledLink to='/about'>{segundo}</StyledLink>
+        <StyledLink to='/works'>{terceiro}</StyledLink>
+        <StyledLink to='/ods'>{quarto}</StyledLink>
       </Ul>
     </Nav>
 

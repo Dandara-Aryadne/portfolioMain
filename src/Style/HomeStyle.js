@@ -30,13 +30,7 @@ top:56%;
 left:2%;
 
 @media screen and (min-width:360px) and (max-width:800px){
-    position:absolute;
-    display:flex;
-   border:solid;
-    margin-top:30%;
-    margin-left:5%;
-    width:90%;
-    height:10%;
+   display:none;
 }
 `
 
@@ -48,12 +42,8 @@ font-size:43px;
 font-family: 'Comfortaa', cursive;
 
 @media screen and (min-width:360px) and (max-width:800px){
-    margin-bottom:10vh;
-    margin-left:9.5%;
-    font-size:30px;
-    font-family: 'Comfortaa', cursive;
-    border:solid;
-}
+    display:none;
+ }
 `
 
 export const P=styled.p`
@@ -62,10 +52,8 @@ font-family: 'Exo', sans-serif;
 font-size:20px;
 
 @media screen and (min-width:360px) and (max-width:800px){
-    margin-bottom:3%;
-    font-family: 'Exo', sans-serif;
-
-}
+    display:none;
+ }
 `
 
 
