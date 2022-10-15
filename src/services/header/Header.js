@@ -35,10 +35,7 @@ export default function Header(){
       <S.Div>
         <S.Img src={Logo} alt='logo'/>
       </S.Div>
-      <S.DivTitle>
-        <S.P>Portfólio Page</S.P>
-        <S.H1>Dandara Aryadne</S.H1>
-      </S.DivTitle>
+   
       <S.Nav>
       <S.Ul>
         <StyledLink to="/">HOME</StyledLink>

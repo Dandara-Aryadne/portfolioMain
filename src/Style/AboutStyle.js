@@ -21,10 +21,11 @@ border:solid 1px  #F5F5F5;
 @media screen and (min-width:360px) and (max-width:800px){
 display:flex;
 width:100%;
-height:60vh;
+height:64vh;
 margin-right:18%;
+margin-top:16%;
 background-color: #F5F5F5;
-border:solid 1px  #F5F5F5;
+border:solid 1px  #F5F5F;
 
 }
 `
@@ -33,7 +34,7 @@ position:absolute;
 display:flex;
 width:25%;
 height:50vh;
-bottom:20%;
+bottom:17%;
 right:73%;
 
 
@@ -41,10 +42,9 @@ right:73%;
 position:absolute;
 display:flex;
 width:24%;
-height:18vh;
-bottom:52%;
-right:73%;
-
+height:15vh;
+bottom:64%;
+left:37%;
 }
 
 `
@@ -64,10 +64,10 @@ position:absolute;
 display:flex;
 justify-content:space-evenly;
 flex-direction:column;
-width: 64%;
+width: 88%;
 height:25%;
-margin-left:30%;
-margin-top:6%;
+margin-left:6%;
+margin-top:12%;
 text-align: justify;
 
 
@@ -78,7 +78,7 @@ export const P=styled.p`
 font-family: 'Exo', sans-serif;
 
 @media screen and (min-width:360px) and (max-width:800px){
-    font-size:8px;
+    font-size:10px;
    
 }
 `
@@ -87,17 +87,18 @@ export const Figure=styled.figure`
 position:absolute;
 
 left: 58%;
-bottom:16%;
+bottom:14%;
 display:flex;
 align-items:center;
 justify-content:center;
 flex-wrap:wrap;
 width:40%;
 height:56vh;
+
 @media screen and (min-width:360px) and (max-width:800px){
     position:absolute;
     left:17%;
-    bottom:16%;
+    bottom:7%;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -134,3 +135,44 @@ export const ImgFour =styled.img`
 width:35%;
 height:48%;
 `
+export const SectionOne=styled.section`
+display:flex;
+width:100%;
+height:60vh;
+margin-right:18%;
+margin-top:5%;
+background-color: #F5F5F5;
+border:solid 1px black;
+@media screen and (min-width:360px) and (max-width:800px){
+display:flex;
+width:100%;
+height:64vh;
+margin-right:18%;
+margin-top:25%;
+background-color: #F5F5F5;
+border:solid 1px black;
+
+}
+`
+
+export const SectionTwo=styled.section`
+display:flex;
+width:100%;
+height:60vh;
+margin-right:18%;
+margin-top:5%;
+background-color: #F5F5F5;
+border:solid 1px black;
+@media screen and (min-width:360px) and (max-width:800px){
+display:flex;
+width:100%;
+height:64vh;
+margin-right:18%;
+margin-top:25%;
+background-color: #F5F5F5;
+border:solid 1px black;
+
+}
+`
+
+

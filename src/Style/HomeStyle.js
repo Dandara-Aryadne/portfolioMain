@@ -7,13 +7,13 @@ width:100%;
 height:100vh;
 display:flex;
 
-@media screen and (min-width:360px) and (max-width:800px){
-    width:100%;
-height:100vh;
-    display:flex;
-    border:solid;
+// @media screen and (min-width:360px) and (max-width:800px){
+//     width:100%;
+//     height:100vh;
+
+//     border:solid;
     
-}
+// }
 `
 
 
@@ -30,7 +30,11 @@ top:56%;
 left:2%;
 
 @media screen and (min-width:360px) and (max-width:800px){
-   display:none;
+   width:70%;
+   height:12%;
+   top:30vh;
+   left:16%;
+  
 }
 `
 
@@ -42,7 +46,10 @@ font-size:43px;
 font-family: 'Comfortaa', cursive;
 
 @media screen and (min-width:360px) and (max-width:800px){
-    display:none;
+    font-size:22px;
+    left:7%;
+    top:18%;
+ 
  }
 `
 
@@ -52,7 +59,8 @@ font-family: 'Exo', sans-serif;
 font-size:20px;
 
 @media screen and (min-width:360px) and (max-width:800px){
-    display:none;
+    position: absolute;
+    top:65%;
  }
 `
 
@@ -105,8 +113,10 @@ height:125%;
 `
 
 export const ImgThree=styled.img`
-margin-left:9.2%;
-margin-top:16%;
+margin-left:16.3%;
+margin-top:26%;
+width:80%;
+height:35vh;
 
 
 

@@ -11,5 +11,5 @@ z-index:02;
 `
 
 export const Img = styled.img`
-width:60%;
+width:60%;pm start
 `

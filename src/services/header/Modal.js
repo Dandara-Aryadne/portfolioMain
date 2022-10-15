@@ -49,10 +49,13 @@ export default function App() {
       <div>
         <Props modal={() => {setOpen(!open)}}/>
         {open && <Menu primeiro="HOME" segundo="ABOUT ME" terceiro="WORKS" quarto="ODS PROJECT"/>}
+        
       </div>
     </section>
   );
 }
+
+
 
 const Menu = ({ primeiro, segundo, terceiro, quarto}) => {
   return (

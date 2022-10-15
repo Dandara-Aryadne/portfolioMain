@@ -11,6 +11,7 @@ import paint from '../imgAbout/paint.png'
 
 
 
+
 export default function About() {
   return (
     <S.Body>
@@ -29,11 +30,13 @@ export default function About() {
           <S.ImgThree src={Paint3} alt='paint3'/>
           <S.ImgFour src={Paint4} alt='paint4'/>
         </S.Figure>
-        <div>
-          <img alt='space'/>
-        </div>
       </S.Main>
-       
+      <S.SectionOne>
+
+      </S.SectionOne>
+      <S.SectionTwo>
+        
+      </S.SectionTwo>
     </S.Body>
   )
 }
