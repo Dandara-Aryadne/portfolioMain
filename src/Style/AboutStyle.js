@@ -172,7 +172,7 @@ export const ImgFive=styled.img`
 display:flex;
 width:50%;
 height:40vh;
-right:73%;
+right:74%;
 
 @media screen and (min-width:360px) and (max-width:800px){
 position:absolute;
