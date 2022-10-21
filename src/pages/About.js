@@ -35,22 +35,21 @@ export default function About() {
       </S.Main>
 
 
-      <S.SectionOne>
+    <S.SectionOne>
         <S.Boximg>
         <S.ImgFive src={Profile2} alt='profile'/>
-        </S.Boximg>
-        <S.DivOne>
-          <S.POne>Me formei em Belas Artes, pela UFRRJ, um sonho realizado. Ser artista e viver da arte em suas diversas formas, me incentivou a sempre enxergar algo a mais no mundo. Foi durante a minha formação que eu descobri o tipo de pessoa que sou, quais são os meus objetivos e propósitos. O tempo que levei em formação valeram para me transformar no ser humano que sou hoje, assim como a minha arte é resultado disso. </S.POne>
-          <S.POne>Minha especialização é Ilustração, mas me formei com honras em História da Arte, com o tema do imaginário a visão feminina na arte.  Como o corpo feminino foi e é representando na arte até hoje. </S.POne>
-          <S.POne>Esse fator me incentivou dentro da arte a representar o feminino, dentro do realismo em tela. </S.POne>
-        </S.DivOne>
-        <S.FigureOne>
-          <S.ImgSix src={element2} alt='element'/>
-          <S.ImgSeven src={Grid1} alt='paint1'/>
-        </S.FigureOne>
+      </S.Boximg>
+      <S.DivOne>
+        <S.POne>Vivi e até hoje vivo para enxergar a beleza do cinema como uma verdadeira obra de arte, por isso em 2014 criei o portal Cinema ATM que hoje conversa sobre cinema de uma forma divertida e sincera. O cinema como arte, não apenas como entretenimento. </S.POne>
+        <S.POne>Os escritores que passaram pelo Portal, hoje estão presentes em canais de entrenimento com renome, parcerias com assessorias de imprensa e a oportunidade de participarem de eventos que edificam essa formação do cinema como uma forma de arte. </S.POne>
+      </S.DivOne>
+      <S.FigureOne>
+        <S.ImgSix src={element2} alt='element'/>
+        <S.ImgSeven src={Grid1} alt='paint1'/>
+      </S.FigureOne>     
+    </S.SectionOne>
       
       
-      </S.SectionOne>
       <S.SectionTwo>
         
       </S.SectionTwo>
