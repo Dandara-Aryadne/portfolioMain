@@ -96,8 +96,8 @@ height:56vh;
 
 @media screen and (min-width:360px) and (max-width:800px){
     position:absolute;
-    left:17%;
-    bottom:9%;
+    left:25%;
+    bottom:5%;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -112,8 +112,8 @@ export const ImgZero=styled.img`
 width:13%;
 display:flex;
 position:absolute;
-bottom:93%;
-right:88%;
+bottom:86%;
+right:80%;
 
 
 
