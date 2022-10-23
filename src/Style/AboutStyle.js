@@ -41,7 +41,7 @@ right:73%;
 @media screen and (min-width:360px) and (max-width:800px){
 position:absolute;
 display:flex;
-width:24%;
+width:26%;
 height:15vh;
 bottom:65%;
 left:37%;
@@ -67,7 +67,7 @@ flex-direction:column;
 width: 88%;
 height:25%;
 margin-left:6%;
-margin-top:16%;
+margin-top:14%;
 text-align: justify;
 
 
@@ -97,14 +97,14 @@ height:56vh;
 @media screen and (min-width:360px) and (max-width:800px){
     position:absolute;
     left:17%;
-    bottom:9.5%;
+    bottom:9%;
     display:flex;
     align-items:center;
     justify-content:center;
     flex-wrap:wrap;
-    width:65%;
+    width:50%;
     height:30vh;
-
+    border:solid;
 }
 
 `
@@ -119,20 +119,20 @@ right:88%;
 
 `
 export const ImgOne =styled.img`
-width:48%;
-height:48%;
+width:38%;
+height:38%;
 `
 export const ImgTwo =styled.img`
-width:48%;
-height:48%;
+width:38%;
+height:38%;
 `
 export const ImgThree =styled.img`
-width:48%;
-height:48%;
+width:38%;
+height:38%;
 `
 export const ImgFour =styled.img`
-width:48%;
-height:48%;
+width:38%;
+height:38%;
 `
 export const SectionOne=styled.section`
 display:flex;
